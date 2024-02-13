@@ -4,10 +4,6 @@ const app = express();
 
 const port = process.env.PORT || 4000;
 
-app.listen(port, function(){
-    console.log('port ', port);
-});
-
 const server = app.listen(port, function(){
     console.log('port 4000 active');
 });
