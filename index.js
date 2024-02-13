@@ -3,6 +3,7 @@ const socket = require('socket.io');
 const app = express();
 
 const port = process.env.PORT || 4000;
+export {port};
 
 const server = app.listen(port, function(){
     console.log('port ', port);
