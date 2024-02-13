@@ -1,7 +1,8 @@
-const port = process.env.PORT || 4000;
+import {port} from '../index';
 
-const clientport = ':' + port
-const socket = io.connect('https://trabajochat-58e86b622fcb.herokuapp.com');
+console.log(port)
+
+const socket = io.connect('http://localhost:');
 
 const nameElement = document.querySelector('.chat-name');
 const messageElement = document.querySelector('.chat-message');
