@@ -1,7 +1,7 @@
 const port = process.env.PORT || 4000;
 
 const clientport = ':' + port
-const socket = io.connect(clientport);
+const socket = io.connect('https://trabajochat-58e86b622fcb.herokuapp.com/');
 
 const nameElement = document.querySelector('.chat-name');
 const messageElement = document.querySelector('.chat-message');
