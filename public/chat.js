@@ -2,7 +2,7 @@ import {port} from '../index';
 
 console.log(port)
 
-const socket = io.connect('http://localhost:');
+const socket = io.connect('http://localhost:4000');
 
 const nameElement = document.querySelector('.chat-name');
 const messageElement = document.querySelector('.chat-message');
