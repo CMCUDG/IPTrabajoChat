@@ -1,5 +1,4 @@
-const socket = io.connect('http://localhost:8080
-');
+const socket = io.connect('https://trabajochat-58e86b622fcb.herokuapp.com');
 
 const nameElement = document.querySelector('.chat-name');
 const messageElement = document.querySelector('.chat-message');
