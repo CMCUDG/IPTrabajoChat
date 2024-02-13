@@ -1,7 +1,7 @@
 import {port} from '../index.js';
 
 const clientport = 'http://localhost:' + port
-const socket = io.connect(clientport);
+const socket = io.connect(port);
 
 const nameElement = document.querySelector('.chat-name');
 const messageElement = document.querySelector('.chat-message');
