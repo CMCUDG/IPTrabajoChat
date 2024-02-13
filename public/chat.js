@@ -1,6 +1,6 @@
 const port = process.env.PORT || 4000;
 
-const clientport = 'http://localhost:' + port
+const clientport = ':' + port
 const socket = io.connect(clientport);
 
 const nameElement = document.querySelector('.chat-name');
